@@ -12,7 +12,7 @@ import { SERVICES, SITE, telUrl, whatsappUrl } from "@/lib/site";
 export function ServicePageView({ slug }: { slug: string }) {
   const service = SERVICES.find((s) => s.slug === slug);
   if (!service) return null;
-  const img = IMAGES[service.image];
+  const img = service.photos?.after || IMAGES[service.image];
   const related = SERVICES.filter((s) => s.slug !== slug).slice(0, 3);
 
   return (
@@ -60,7 +60,11 @@ export function ServicePageView({ slug }: { slug: string }) {
       </Section>
 
       <Section eyebrow="See the Difference" title="Before & After" tone="muted">
-        <BeforeAfterSlider before={img} after={img} alt={`${service.title} result`} />
+        <BeforeAfterSlider 
+          before={service.photos?.before || img} 
+          after={service.photos?.after || img} 
+          alt={`${service.title} result`} 
+        />
         <p className="mt-6 text-center text-sm text-muted-foreground">Drag the slider — replace with your own project photos.</p>
       </Section>
 
