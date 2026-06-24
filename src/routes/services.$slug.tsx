@@ -7,11 +7,10 @@ export const Route = createFileRoute('/services/$slug')({
 function ServiceDetail() {
   const { slug } = useParams({ from: '/services/$slug' })
 
-  // Service data
   const services = {
     'oven-cleaning': {
       title: 'Oven Cleaning',
-      description: 'Professional oven cleaning to restore your appliance to like-new condition.',
+      description: 'Professional oven cleaning to restore your appliance to like-new condition. We strip, soak, and scrub every component.',
       sliderBefore: '/images/oven/oven-before.jpg',
       sliderAfter: '/images/oven/oven-after.jpg',
       gallery: ['oven-1.jpg', 'oven-2.jpg', 'oven-3.jpg', 'oven-4.jpg', 'oven-5.jpg'],
@@ -19,7 +18,7 @@ function ServiceDetail() {
     },
     'carpet-upholstery-cleaning': {
       title: 'Carpet & Upholstery Cleaning',
-      description: 'Deep steam cleaning for fresh, hygienic carpets and upholstery.',
+      description: 'Deep steam cleaning for fresh, hygienic carpets and upholstery. Removes 99% of bacteria and allergens.',
       sliderBefore: '/images/carpet/carpet-before.jpg',
       sliderAfter: '/images/carpet/carpet-after.jpg',
       gallery: ['carpet-1.jpg', 'carpet-2.jpg', 'carpet-3.jpg'],
@@ -27,7 +26,7 @@ function ServiceDetail() {
     },
     'end-of-tenancy-cleaning': {
       title: 'End of Tenancy Cleaning',
-      description: 'Meticulous deep cleaning to secure your full deposit return.',
+      description: 'Meticulous deep cleaning to secure your full deposit return. We follow TDS (Tenancy Deposit Scheme) standards.',
       sliderBefore: '/images/eot/eot-kitchen-before.jpg',
       sliderAfter: '/images/eot/eot-kitchen-after.jpg',
       gallery: ['eot-1.jpg', 'eot-2.jpg', 'eot-3.jpg', 'eot-4.jpg', 'eot-5.jpg', 'eot-6.jpg', 'eot-7.jpg', 'eot-8.jpg', 'eot-9.jpg', 'eot-10.jpg', 'eot-11.jpg', 'eot-12.jpg'],
@@ -43,11 +42,17 @@ function ServiceDetail() {
   const service = services[slug as keyof typeof services]
 
   if (!service) {
-    return <div>Service not found</div>
+    return (
+      <div style={{ padding: '50px', textAlign: 'center' }}>
+        <h1>Service Not Found</h1>
+        <p>The service you're looking for doesn't exist.</p>
+        <a href="/" style={{ color: '#C9A94E' }}>Go Home</a>
+      </div>
+    )
   }
 
   return (
-    <div className="container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
+    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
       <h1 style={{ fontSize: '2.5rem', color: '#1A2A4A' }}>{service.title}</h1>
       <p style={{ fontSize: '1.2rem', color: '#555', marginBottom: '30px' }}>{service.description}</p>
 
@@ -72,7 +77,7 @@ function ServiceDetail() {
         </div>
       </div>
 
-      {/* EXTRA SLIDERS (for EOT only) */}
+      {/* EXTRA SLIDERS (EOT only) */}
       {service.extraSliders && (
         <>
           <h2 style={{ fontSize: '1.8rem', color: '#1A2A4A', marginTop: '40px' }}>More Transformations</h2>
