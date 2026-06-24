@@ -24,6 +24,24 @@ export const SERVICES = [
     short: "Meticulous deep cleaning to secure your deposit",
     icon: "Key",
     image: "tenancy",
+    photos: {
+      before: "/images/eot/eot-kitchen-before.jpg",
+      after: "/images/eot/eot-kitchen-after.jpg",
+      gallery: [
+        "/images/eot/eot-1.jpg",
+        "/images/eot/eot-2.jpg",
+        "/images/eot/eot-3.jpg",
+        "/images/eot/eot-4.jpg",
+        "/images/eot/eot-5.jpg",
+        "/images/eot/eot-6.jpg",
+        "/images/eot/eot-7.jpg",
+        "/images/eot/eot-8.jpg",
+        "/images/eot/eot-9.jpg",
+        "/images/eot/eot-10.jpg",
+        "/images/eot/eot-11.jpg",
+        "/images/eot/eot-12.jpg"
+      ]
+    },
     startingFrom: "£149",
     hero: "Deposit-back guaranteed deep cleans for tenants, landlords and agents.",
     included: [
@@ -52,6 +70,17 @@ export const SERVICES = [
     short: "Restore your oven to like-new condition",
     icon: "Flame",
     image: "oven",
+    photos: {
+      before: "/images/oven/oven-before.jpg",
+      after: "/images/oven/oven-after.jpg",
+      gallery: [
+        "/images/oven/oven-1.jpg",
+        "/images/oven/oven-2.jpg",
+        "/images/oven/oven-3.jpg",
+        "/images/oven/oven-4.jpg",
+        "/images/oven/oven-5.jpg"
+      ]
+    },
     startingFrom: "£55",
     hero: "Fume-free, dip-tank deep cleaning that brings ovens back to showroom shine.",
     included: [
@@ -78,6 +107,15 @@ export const SERVICES = [
     short: "Deep steam cleaning for fresh, hygienic fabrics",
     icon: "Sofa",
     image: "carpet",
+    photos: {
+      before: "/images/carpet/carpet-before.jpg",
+      after: "/images/carpet/carpet-after.jpg",
+      gallery: [
+        "/images/carpet/carpet-1.jpg",
+        "/images/carpet/carpet-2.jpg",
+        "/images/carpet/carpet-3.jpg"
+      ]
+    },
     startingFrom: "£45",
     hero: "Hot-water extraction that lifts deep soiling, allergens and odours from fibres.",
     included: [
