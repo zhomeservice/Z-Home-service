@@ -25,21 +25,35 @@ export const SERVICES = [
     icon: "Key",
     image: "tenancy",
     photos: {
-      before: "/images/eot/eot-kitchen-before.jpg",
-      after: "/images/eot/eot-kitchen-after.jpg",
+      before: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-before.jpg",
+      after: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-after.jpg",
       gallery: [
-        "/images/eot/eot-1.jpg",
-        "/images/eot/eot-2.jpg",
-        "/images/eot/eot-3.jpg",
-        "/images/eot/eot-4.jpg",
-        "/images/eot/eot-5.jpg",
-        "/images/eot/eot-6.jpg",
-        "/images/eot/eot-7.jpg",
-        "/images/eot/eot-8.jpg",
-        "/images/eot/eot-9.jpg",
-        "/images/eot/eot-10.jpg",
-        "/images/eot/eot-11.jpg",
-        "/images/eot/eot-12.jpg"
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-1.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-2.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-3.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-4.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-5.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-6.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-7.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-8.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-9.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-10.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-11.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-12.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-13.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-14.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-15.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-16.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-17.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-18.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-bathroom-after.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-bathroom-before.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-carpet-after.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-carpet-before.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen2-after.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen2-before.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-oven-after.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-oven-before.jpg"
       ]
     },
     startingFrom: "£149",
@@ -71,14 +85,14 @@ export const SERVICES = [
     icon: "Flame",
     image: "oven",
     photos: {
-      before: "/images/oven/oven-before.jpg",
-      after: "/images/oven/oven-after.jpg",
+      before: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/oven/oven-before.jpg",
+      after: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/oven/oven-after.jpg",
       gallery: [
-        "/images/oven/oven-1.jpg",
-        "/images/oven/oven-2.jpg",
-        "/images/oven/oven-3.jpg",
-        "/images/oven/oven-4.jpg",
-        "/images/oven/oven-5.jpg"
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/oven/oven-1.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/oven/oven-2.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/oven/oven-3.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/oven/oven-4.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/oven/oven-5.jpg"
       ]
     },
     startingFrom: "£55",
@@ -108,12 +122,12 @@ export const SERVICES = [
     icon: "Sofa",
     image: "carpet",
     photos: {
-      before: "/images/carpet/carpet-before.jpg",
-      after: "/images/carpet/carpet-after.jpg",
+      before: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/carpet/carpet-before.jpg",
+      after: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/carpet/carpet-after.jpg",
       gallery: [
-        "/images/carpet/carpet-1.jpg",
-        "/images/carpet/carpet-2.jpg",
-        "/images/carpet/carpet-3.jpg"
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/carpet/carpet-1.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/carpet/carpet-2.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/carpet/carpet-3.jpg"
       ]
     },
     startingFrom: "£45",
@@ -142,6 +156,18 @@ export const SERVICES = [
     short: "Remove all dust and debris after renovations",
     icon: "HardHat",
     image: "builder",
+    photos: {
+      before: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-before.jpg",
+      after: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-after.jpg",
+      gallery: [
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-1.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-2.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-3.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-4.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-5.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-6.jpg"
+      ]
+    },
     startingFrom: "£199",
     hero: "Post-construction deep cleans that get your project handover-ready.",
     included: [
@@ -169,6 +195,16 @@ export const SERVICES = [
     short: "Streak-free shine inside and out",
     icon: "Sparkles",
     image: "window",
+    photos: {
+      before: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-before.jpg",
+      after: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-after.jpg",
+      gallery: [
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-1.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-2.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-3.jpg",
+        "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-4.jpg"
+      ]
+    },
     startingFrom: "£35",
     hero: "Pure-water reach-and-wash systems for crystal-clear glass up to four storeys.",
     included: [
