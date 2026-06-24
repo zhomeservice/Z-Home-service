@@ -31,7 +31,7 @@ function Gallery() {
   const filteredImages = getImages()
 
   return (
-    <div className="container" style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
+    <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '20px' }}>
       <h1 style={{ fontSize: '2.5rem', color: '#1A2A4A' }}>Our Work Gallery</h1>
       <p style={{ fontSize: '1.1rem', color: '#555' }}>See the transformation for yourself</p>
 
