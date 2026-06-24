@@ -1,10 +1,10 @@
 export const IMAGES: Record<string, string> = {
-  tenancy: "/images/eot/eot-kitchen-after.jpg",
-  oven: "/images/oven/oven-after.jpg",
-  carpet: "/images/carpet/carpet-after.jpg",
-  builder: "/images/eot/eot-kitchen-after.jpg",
-  window: "/images/eot/eot-kitchen-after.jpg",
-  commercial: "/images/eot/eot-kitchen-after.jpg",
-  hero: "/images/eot/eot-kitchen-after.jpg",
-  team: "/images/eot/eot-kitchen-after.jpg",
+  tenancy: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-after.jpg",
+  oven: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/oven/oven-after.jpg",
+  carpet: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/carpet/carpet-after.jpg",
+  builder: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-after.jpg",
+  window: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-after.jpg",
+  commercial: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-after.jpg",
+  hero: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-after.jpg",
+  team: "https://raw.githubusercontent.com/zhomeservice/Z-Home-service/main/public/images/eot/eot-kitchen-after.jpg",
 };
